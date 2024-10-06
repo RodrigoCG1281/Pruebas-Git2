@@ -4,6 +4,9 @@ def suma(a,b):
 #Agregando la segunda operacion
 def resta(a,b):
     return a-b
+#Agregando la tercera operacion
+def multiplicacion(a,b):
+    return a*b
 
 #funcion imprimir resultado
 def imprimir_resultado(resultado):
@@ -14,6 +17,6 @@ def imprimir_resultado(resultado):
 a = int(input("Ingrese el primer valor: "))
 b = int(input("Ingrese el segundo valor: "))
 
-imprimir_resultado(resta(a,b))
+imprimir_resultado(multiplicacion(a,b))
 
 
